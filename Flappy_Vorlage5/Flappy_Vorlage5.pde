@@ -17,6 +17,7 @@ void draw()
 {
   if (laufend)
   {
+     // Alles bewegen
      vogel.bewegen(); 
      h1.bewegen();
      h2.bewegen();
@@ -28,6 +29,7 @@ void draw()
     h1.zeichnen();
     h2.zeichnen();
     
+    // Kommt es zu Zusammenstoessen
     if (h1.enthaelt(vogel.getX(), vogel.getY()))
     {
       // Vogel ist mit dem Hindernis 1 zusammengestossen
