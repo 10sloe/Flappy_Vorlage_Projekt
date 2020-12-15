@@ -29,7 +29,7 @@ class Kugelhindernis {
   void zeichnen()
   {
     fill(255, 0, 0);
-    ellipse(x,y,radius,radius);
+    circle(x,y,2*radius);
   }
   
 
